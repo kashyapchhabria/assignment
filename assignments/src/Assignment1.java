@@ -37,11 +37,11 @@ public class Assignment1 {
 		}
 
 		catch (FileNotFoundException e) {
-			System.err.println("File not found");
+			System.err.println("file not found");
 		}
 
 		catch (IOException e) {
-			System.err.println("Output file error");
+			System.err.println("output file error");
 		}
 		return ageStats;
 
@@ -55,7 +55,7 @@ public class Assignment1 {
 				String value = String.valueOf(entry.getValue());
 				writer.append(entry.getKey()).append(',').append(value).append(eol);
 			}
-			System.out.print("hiiii...Output file generated...");
+			System.out.print("Output file generated");
 		} catch (IOException ex) {
 			System.out.println("output file error");
 		}
