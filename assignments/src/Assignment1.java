@@ -37,11 +37,11 @@ public class Assignment1 {
 		}
 
 		catch (FileNotFoundException e) {
-			System.err.println("File not found");
+			System.err.println("file not found");
 		}
 
 		catch (IOException e) {
-			System.err.println("Output file error");
+			System.err.println("output file error");
 		}
 		return ageStats;
 
