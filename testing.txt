@@ -1,0 +1,6 @@
+8786 ResourceManager
+9236 Jps
+8597 SecondaryNameNode
+8295 NameNode
+8920 NodeManager
+8413 DataNode
